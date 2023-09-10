@@ -1,6 +1,7 @@
   import React from 'react'
 import Header from '../components/header/Header'
 import HeroSection from '../components/hero-section/HeroSection'
+import Organization from '../components/organization/Organization'
   
   const LandingPage = () => {
     return (
@@ -8,6 +9,7 @@ import HeroSection from '../components/hero-section/HeroSection'
         <Header/>
         <div className=''>
             <HeroSection/>
+            <Organization/>
         </div>
       </div>
     )
