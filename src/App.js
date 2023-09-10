@@ -1,9 +1,12 @@
 import './App.css';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <div className="App p-16 bg-blue-400">
-  <h1>Hello world!!</h1>
+    <div className="app">
+      <div>
+        <LandingPage/>
+      </div>
     </div>
   );
 }
