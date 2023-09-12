@@ -4,7 +4,7 @@ import NavList from './NavList'
 
 const Header = () => {
   return (
-    <div className='app-header  border-2 flex justify-between items-center border-black m-2 z-40 rounded-md'>
+    <div className='app-header  sticky top-0 bg-white flex justify-between items-center  mt-2 z-40 '>
       <Logo/>
       <NavList/>
     </div>
