@@ -9,7 +9,7 @@ const Features = () => {
         <div className='features-card flex justify-between gap-0'>
       {imageData.map((item, index) => (
         <div key={index}>
-          <img className=' ' src={item.image} alt={item.description} />
+          <img className=' feat-img' src={item.image} alt={item.description} />
           <p>{item.description}</p>
         </div>
       ))}
