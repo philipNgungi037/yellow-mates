@@ -4,7 +4,7 @@ import Carousel from './Carousel'
 
 const HeroSection = () => {
   return (
-    <div className='hero-section w-full h-96 m-2 bg-ft2-image  relative'>
+    <div className='hero-section w-full h-auto mt-2   '>
         <h1 className='absolute text-center'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
        
         <Search /> 

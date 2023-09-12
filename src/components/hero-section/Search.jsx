@@ -14,15 +14,15 @@ const Search = () => {
   };
 
   return (
-    <div className='search m-4 absolute top-2  '>
+    <div className='search m-4 absolute  w-full p-8 pl-96'>
          
-      <input className='text-center pt-2'
+      <input className='text-center p-2 text-2xl relative'
         type="text"
         placeholder="search"
         value={searchQuery}
         onChange={handleSearchChange}
       />
-      <button className='   rounded-md text-2xl pb-2' onClick={handleSearch}><ion-icon  name="search-outline"></ion-icon></button>
+      <button className='   bg-white p-2 text-2xl ' onClick={handleSearch}><ion-icon  name="search-outline"></ion-icon></button>
     </div>
   );
 };
