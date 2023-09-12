@@ -1,12 +1,13 @@
 h1{
     text-align: center;
+    font-weight: bold;
 }
 
 p{
     text-align: center;
 }
 
-img{
+.feat-img{
     /* clip-path: ellipse(46% 50% at 50% 50%); */
     border-radius: 10%;
     max-width: 400px;
