@@ -23,7 +23,7 @@ const Carousel = () => {
 
   // Automatically move to the next image every 1 second
   useEffect(() => {
-    const interval = setInterval(nextImage, 1000);
+    const interval = setInterval(nextImage, 10798);
 
     // Clear the interval when the component unmounts
     return () => {
@@ -34,7 +34,7 @@ const Carousel = () => {
   return (
     <div className="carousel w-full ">
      
-      <img src={images[currentIndex]} alt='' className='w-full h-96'/>
+      <img src={images[currentIndex]} alt='' className='carousel-img w-full'/>
      <div className='carousel-buttons flex justify-between '>
      <button onClick={nextImage}>Next</button>
       <button onClick={prevImage}>Previous</button>
