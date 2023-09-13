@@ -1,4 +1,81 @@
+h1{
+
+}
+h2{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+label{
+  opacity: 1.5;
+  
+}
 .carousel-img{
     max-width: 100%;
     height: 600px;
+  }
+
+  .feat-img{
+    max-width: 400px;
+    height: 400px;
+  }
+  button{
+    padding: 11px;
+  }
+
+  .blog-post{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    position: relative;
+  }
+  .carousel-paragraph{
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+
+  }
+
+  .social-proof{
+    max-width: 100%;
+    height: 600px;
+  }
+
+  .social-img{
+    max-width: 100%;
+    height: 600px;
+    opacity: 1;
+  }
+  .social-carousel{
+    width: 400px;
+    opacity: 0.8;
+  }
+
+  .team-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .item-category{
+    opacity: 0.9;
+  }
+  .carousel-img{
+    opacity: 1.1;
+  }
+
+  .message-card{
+    opacity: 0.8;
+  }
+  .card-text{
+    opacity: 0.9;
+  }
+  .blogs-container{
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+      height: 600px;
+      
+    }
+
+  }
+  .blog-header{
+  
   }
