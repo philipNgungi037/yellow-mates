@@ -4,7 +4,7 @@ import SocialCarousel from './SocialCarousel'
 
 const SocialProof = () => {
   return (
-    <div className='social-proof relative w-full h-96'>
+    <div className='social-proof relative '>
         <SocialImage/>
         <SocialCarousel/>
     </div>
