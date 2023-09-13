@@ -9,7 +9,7 @@ p{
 
 .feat-img{
     /* clip-path: ellipse(46% 50% at 50% 50%); */
-    border-radius: 10%;
+    border-radius: 0%;
     max-width: 400px;
-   height: auto;
+   height: 300px;
 }

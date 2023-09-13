@@ -14,7 +14,7 @@ const Search = () => {
   };
 
   return (
-    <div className='search m-4 absolute  w-full p-8 pl-96'>
+    <div className='search m-4 absolute  w-full p-8'>
          
       <input className='text-center p-2 text-2xl relative'
         type="text"

@@ -36,8 +36,8 @@ const Carousel = () => {
      
       <img src={images[currentIndex]} alt='' className='carousel-img w-full'/>
      <div className='carousel-buttons flex justify-between '>
-     <button onClick={nextImage}>Next</button>
-      <button onClick={prevImage}>Previous</button>
+     <button onClick={nextImage}><ion-icon name="chevron-back-outline"></ion-icon></button>
+      <button onClick={prevImage}><ion-icon name="chevron-forward-outline"></ion-icon></button>
      </div>
     </div>
   );

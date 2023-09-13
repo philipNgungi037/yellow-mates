@@ -5,7 +5,7 @@ import LearnMore from './LearnMore'
 const Cta = () => {
   
   return (
-    <div className='cta w-full  h-auto '>
+    <div className='cta w-full  h-auto  '>
       <HomeTypes/>
       <LearnMore/>
 

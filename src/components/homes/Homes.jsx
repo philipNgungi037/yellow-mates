@@ -27,17 +27,19 @@ const Homes = () => {
 
   return (
     <div className='homes-container relative h-auto p-16'>
-      <h1 className='text-center'>Real-Deal Homes Listings</h1>
+      <h2 className='text-center'>Real-Deal Homes Listings</h2>
       <div className='homes-scroll-container'>
         <div className='homes-wrapper grid grid-cols-3 gap-4 '>
           {visibleHomes.map((home, index) => (
             <div key={index} className='home-card relative'>
               <img src={home.type.image} alt={home.type.title} />
-              <div className='card-text bg-blue-300 absolute bottom-0 '>
-                <h3>{home.type.title}</h3>
+              <div className='card-text bg-blue-300 absolute bottom-0 grid grid-cols-2 '>
+                <h1>{home.type.title}</h1>
                 <p>{home.location}</p>
+                
                 <p>{home.price}</p>
-                <p>{home.description}</p>
+                <p><ion-icon name="location-outline"></ion-icon></p>
+                <p className='col-span-2 border-t'>{home.description}</p>
               </div>
             </div>
           ))}

@@ -18,14 +18,19 @@ const SocialCarousel= () => {
   }, []);
 
   return (
-    <div className="carousel-container w-full h-96 bg-blue-200 absolute right-10">
-      <div className="carousel-paragraph">
+    <div className="social-carousel h-full bg-blue-200 absolute right-72 ">
+      <div className="carousel-paragraph p-16 m-4 bg-white">
+        <h1>About Clients </h1>
         {carouselParagraphs.map((paragraph, index) => (
           <p
             key={index}
             className={index === currentIndex ? 'active' : ''}
           >
-            <strong>{paragraph.name}</strong>: {paragraph.description}
+            
+            "{paragraph.description}....." <span className='block p-8 '>
+             <strong>{paragraph.name}</strong>
+             </span>
+             
           </p>
         ))}
       </div>

@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <MDBFooter bgColor='black' className='text-center text-lg-start bg-blue-900   text-white w-full h-96 mt-0 border-b'>
+        <MDBFooter  className='text-center text-lg-start bg-slate-950    text-white w-full h-96 mt-0'>
           <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
             <div className='me-5 d-none d-lg-block'>
               <span>Get connected with us on social networks:</span>
