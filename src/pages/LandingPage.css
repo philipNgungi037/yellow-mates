@@ -8,6 +8,10 @@ h2{
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
+  color:  rgb(241, 211, 13);
+}
+li{
+  color: black;
 }
 label{
   opacity: 1.5;
@@ -56,6 +60,7 @@ label{
   .team-img{
     width: 200px;
     height: 200px;
+    border-radius: 50%;
   }
 
   .item-category{
@@ -83,8 +88,27 @@ label{
   .blog-header{
   
   }
-
+  .logo{
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
   /* Custom backgrounds for a grouped... */
-  .logo, .item-category, .features-button, .social-carousel, .home-type-label, .cta-email-submit, .message-card, .card-text, .blog-title, .footer-container{
-    background-color: rgb(142, 159, 232);
+  .logo, .item-category, .social-carousel, .home-type-label, .cta-email-submit, .message-card, .card-text, .blog-title, .footer-container{
+    background-color: rgb(241, 211, 13);
+    color: black;
+  }
+
+  /** Hoverings*/
+  a:hover {
+    
+    color: rgb(241, 211, 13);
+    
+  }
+
+  li:hover{
+    color: rgb(241, 211, 13);
+    
+  }
+  button:hover{
+    color: rgb(241, 211, 13);
   }
