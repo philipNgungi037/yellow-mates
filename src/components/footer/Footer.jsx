@@ -38,7 +38,7 @@ const Footer = () => {
                 <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4 '>
                   <h6 className='text-uppercase fw-bold mb-4'>
                     <MDBIcon color='secondary' icon='gem' className='me-3' />
-                    Real-Deal Homes
+                    Yellow homies
                   </h6>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, consequuntur obcaecati asperiores facilis reiciendis repellat excepturi minima tenetur cum eos harum veniam quo soluta error expedita corrupti quidem officiis? Sit.
@@ -80,7 +80,7 @@ const Footer = () => {
                   </p>
                   <p>
                     <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                    info@real-deal-homes.com
+                    info@yellow-homies.com
                   </p>
                   <p>
                     <MDBIcon color='secondary' icon='phone' className='me-3' /> + 254 741 528 659
@@ -95,8 +95,8 @@ const Footer = () => {
 
           <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             © {currentYear}
-            <a className='text-gray-600 hover:text-blue-500 hover:underline ml-1 font-normal' href='fb'>
-             Real-Deal Homes
+            <a className='text-gray-500  hover:text-white hover:underline ml-1 font-normal' href='fb'>
+             Yellow-homies
             </a>
           </div>
         </MDBFooter>
