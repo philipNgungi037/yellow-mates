@@ -38,7 +38,7 @@ const NavList = () => {
 
       {/* menu-list */}
       {isOpen &&
-        <div className="menu-list fixed left-0 w-full bg-white ">
+        <div className="menu-list fixed left-0 w-1/2 p-16 h-full  bg-yellow-50">
           <ul className="nav-item flex flex-col  justify-end items-center content-center gap-4 ">
             <li>
               <a href="about-us">About us</a>
