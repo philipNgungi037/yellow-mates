@@ -11,7 +11,7 @@ import Footer from '../components/footer/Footer'
 import './LandingPage.css'
   const LandingPage = () => {
     return (
-      <div className='landing-page bg-white shadow-2xl shadow-black sticky top-4'>
+      <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-yellow-50'>
         <Header/>
         <div className='flex flex-col  '>
             <HeroSection/>
