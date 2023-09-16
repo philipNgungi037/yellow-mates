@@ -1,5 +1,23 @@
 .landing-page{
+  font-weight:600;
+  font-family: font-awesome; 
   
+}
+.features{
+ 
+  
+}
+.feat-img{
+  /* clip-path: ellipse(46% 50% at 50% 50%); */
+  border-radius: 0%;
+  max-width: 400px;
+  height: 300px;
+ @media (max-width: 640px) {
+  max-width: 200px;
+  height: 100px;
+ 
+  
+ }
 }
 h1{
 
