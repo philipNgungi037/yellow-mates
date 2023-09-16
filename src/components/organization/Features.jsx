@@ -6,10 +6,10 @@ const Features = () => {
   return (
     <div className="features p-16  ">
       <h2> Neque porro quisquam est qui dolorem </h2>
-      <div className="features-card flex justify-between gap-8 ">
+      <div className="features-card md:flex justify-between gap-8 ">
         {imageData.map((item, index) =>
           
-            <div key={index} className="relative flex flex-col items-center ">
+            <div key={index} className="relative flex  flex-col items-center ">
               <a href="f">
               <img
                 className=" feat-img  "
