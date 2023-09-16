@@ -3,7 +3,7 @@ import React from 'react'
 const Message = () => {
   return (
     <div className='message-outer-container w-1/2 absolute top-4 right-72 p-4'>
-        <div className='message-card w-full p-16 bg-blue-300'>
+        <div className='message-card w-full p-16 '>
             <h1>Our Commitment To You</h1>
             <p>
                 Because we work by referral, we don't need to spend valuable time prospecting for new business, and we don't believe 

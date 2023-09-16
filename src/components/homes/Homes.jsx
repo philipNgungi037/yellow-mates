@@ -33,7 +33,7 @@ const Homes = () => {
           {visibleHomes.map((home, index) => (
             <div key={index} className='home-card relative'>
               <img src={home.type.image} alt={home.type.title} />
-              <div className='card-text bg-blue-300 absolute bottom-0 grid grid-cols-2 '>
+              <div className='card-text  absolute bottom-0 grid grid-cols-2 '>
                 <h1>{home.type.title}</h1>
                 <p>{home.location}</p>
                 

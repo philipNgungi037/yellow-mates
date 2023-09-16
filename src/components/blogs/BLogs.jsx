@@ -13,7 +13,7 @@ const BLogs = () => {
           
           <p className='date text-start'> {blog.date} </p>
           <p className='author text-start'>@ {blog.author}</p>
-          <h2 className='  bg-blue-200'>{blog.title}</h2>
+          <h2 className='blog-title '>{blog.title}</h2>
           <div className='content'>{blog.content}</div>
           <div className='tags border border-black w-auto absolute p-2'>
             Read more

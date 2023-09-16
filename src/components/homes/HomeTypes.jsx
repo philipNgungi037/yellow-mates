@@ -14,9 +14,9 @@ const HomeTypes = () => {
         {uniqueTypes.map((type, index) => (
           <li key={index}>
             <a href='home-types'>
-            <div className="home-type relative shadow-md shadow-black">
+            <div className="home-type relative ">
               <img src={homes.find((home) => home.type.title === type).type.image} alt='' className='w-96  h-56'/>
-               <label className='absolute bottom-4 text-black p-2 text-center bg-blue-300 w-full   '>{type}</label> 
+               <label className='home-type-label absolute bottom-4 text-black p-2 text-center  w-full   '>{type}</label> 
             </div>
             </a>
           </li>

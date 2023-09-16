@@ -23,7 +23,7 @@ function EmailForm() {
             className='  p-8 text-black'
           />
         </label>
-        <button type="submit" className=' bg-blue-200 p-8'>Submit</button>
+        <button type="submit" className=' cta-email-submit p-8'>Submit</button>
       </form>
     </div>
   );

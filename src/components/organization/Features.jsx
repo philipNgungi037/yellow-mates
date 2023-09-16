@@ -16,14 +16,14 @@ const Features = () => {
                 src={item.image}
                 alt={item.description}
               />
-              <p className="item-category w-auto bg-blue-200 text-center p-4 opacity-0.2  absolute top-72">
+              <p className="item-category w-auto  text-center p-4 opacity-0.2  absolute top-72">
                 {item.category}
               </p>
               </a>
               <p>
                 {item.description}
               </p>
-              <button><p className=" text-sm text-blue-400  text-center">LEARN MORE</p></button>
+              <button><p className="features-button text-sm text-blue-400 p-2  text-center">LEARN MORE</p></button>
 
               
             </div>
