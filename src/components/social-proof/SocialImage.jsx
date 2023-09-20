@@ -8,7 +8,7 @@ const SocialImage = () => {
   return (
     <div className='social-image w-full h-auto absolute'>
       {/* Render the first image */}
-      <img src={firstImageData.image} alt={firstImageData.description}  className='social-img w-full h-96'/>
+      <img src={firstImageData.image} alt={firstImageData.description}  className='social-img w-full '/>
     </div>
   );
 }

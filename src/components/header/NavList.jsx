@@ -10,10 +10,10 @@ const NavList = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="nav-list p-2 md:p-4  text-black ">
+    <div className="nav-list p-2 sm:p-4   text-black ">
       {/* nav-bar */}
-      <div className="nav-bar hidden md:block">
-        <ul className="nav-item flex justify-end items-center content-center gap-4 ">
+      <div className="nav-bar hidden sm:block">
+        <ul className="nav-item flex justify-end items-center content-center gap-4">
           <li>
             <a href="about-us">About us</a>
           </li>
@@ -30,7 +30,7 @@ const NavList = () => {
       </div>
 
       {/* //menu-button */}
-      <div className="menu md:hidden">
+      <div className="menu sm:hidden">
         <button onClick={toggleMenu} className="menu-button text-4xl">
           <ion-icon name="menu-outline" />
         </button>
@@ -38,7 +38,7 @@ const NavList = () => {
 
       {/* menu-list */}
       {isOpen &&
-        <div className="menu-list fixed left-0 w-1/2 p-16 h-full  bg-yellow-50">
+        <div className="menu-list fixed left-0 w-full p-16 h-full  bg-yellow-50">
           <ul className="nav-item flex flex-col  justify-end items-center content-center gap-4 ">
             <li>
               <a href="about-us">About us</a>

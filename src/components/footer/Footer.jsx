@@ -5,12 +5,12 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <MDBFooter  className='footer-container text-center text-lg-start bg-slate-950    text-white w-full h-96 mt-0'>
-          <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+          <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom '>
             <div className='me-5 d-none d-lg-block'>
               <span>Get connected with us on social networks:</span>
             </div>
 
-            <div>
+            <div className=' '>
               <a href='www.facebook.com' className='me-4 text-reset'>
               <ion-icon name="logo-facebook"></ion-icon>
               </a>

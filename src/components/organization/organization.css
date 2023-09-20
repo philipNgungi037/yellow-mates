@@ -7,9 +7,3 @@ p{
     text-align: center;
 }
 
-.feat-img{
-    /* clip-path: ellipse(46% 50% at 50% 50%); */
-    border-radius: 0%;
-    max-width: 400px;
-   height: 300px;
-}

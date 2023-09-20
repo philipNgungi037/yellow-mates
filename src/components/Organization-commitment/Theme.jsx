@@ -3,8 +3,8 @@ import Message from './Message'
 
 const Theme = () => {
   return (
-    <div className='theme-container w-full h-96 relative '>
-        <img src='./assets/images/feat-img1.jpg' alt='' className='w-full h-96'>
+    <div className='theme-container w-full  relative '>
+        <img src='./assets/images/feat-img1.jpg' alt='' className='theme-img w-full '>
 
         </img>
         <Message/>

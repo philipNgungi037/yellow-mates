@@ -13,7 +13,7 @@ import './LandingPage.css'
     return (
       <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-yellow-50'>
         <Header/>
-        <div className='flex flex-col  '>
+        <div className='flex flex-col '>
             <HeroSection/>
             <Organization/>
             <SocialProof/>

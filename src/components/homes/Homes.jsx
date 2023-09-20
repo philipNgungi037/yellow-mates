@@ -26,15 +26,15 @@ const Homes = () => {
   const visibleHomes = homes.slice(startIndex, endIndex);
 
   return (
-    <div className='homes-container relative h-auto p-16'>
-      <h2 className='text-center'>Real-Deal Homes Listings</h2>
+    <div className='homes-container relative h-auto p-4 sm:p-16'>
+      <h2 className='text-center'>Yellow-Homies Top Listings</h2>
       <div className='homes-scroll-container'>
-        <div className='homes-wrapper grid grid-cols-3 gap-4 '>
+        <div className='homes-wrapper grid grid-cols-1 sm:grid-cols-3 gap-4 '>
           {visibleHomes.map((home, index) => (
-            <div key={index} className='home-card relative'>
+            <div key={index} className='home-card relative text-xs sm:text-sm'>
               <img src={home.type.image} alt={home.type.title} />
-              <div className='card-text  absolute bottom-0 grid grid-cols-2 '>
-                <h1>{home.type.title}</h1>
+              <div className='card-text  absolute sm:relative md:absolute bottom-0 grid grid-cols-2 '>
+                <h1 className='text-white '>{home.type.title}</h1>
                 <p>{home.location}</p>
                 
                 <p>{home.price}</p>
