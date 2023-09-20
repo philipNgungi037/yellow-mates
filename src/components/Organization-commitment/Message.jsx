@@ -2,8 +2,8 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div className='message-outer-container w-full  absolute top-4  p-4'>
-        <div className='message-card w-full p-2 sm:p-16 '>
+    <div className='message-outer-container w-full absolute top-4  p-4 md:px-24'>
+        <div className='message-card w-full  p-2 sm:p-16 '>
             <h1>Our Commitment To You</h1>
             <p>
                 Because we work by referral, we don't need to spend valuable time prospecting for new business, and we don't believe 
