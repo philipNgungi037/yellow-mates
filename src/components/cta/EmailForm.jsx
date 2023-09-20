@@ -12,18 +12,18 @@ function EmailForm() {
   return (
     <div className='email-form  w-full p-8'>
       {/* <h2>Email Submission Form</h2> */}
-      <form onSubmit={handleSubmit} className='w-full'>
+      <form onSubmit={handleSubmit} className='flex justify-center  w-full'>
         <label>
           <input
             type="email"
-            placeholder='enter email'
+            placeholder='ENTER EMAIL'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className='  p-8 text-black'
+            className='  p-2 sm:p-8 text-black'
           />
         </label>
-        <button type="submit" className=' cta-email-submit p-8 hover:text-white '>Submit</button>
+        <button type="submit" className=' cta-email-submit p-2 sm:p-8 hover:text-white '>SUBMIT</button>
       </form>
     </div>
   );
