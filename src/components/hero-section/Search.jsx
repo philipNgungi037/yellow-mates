@@ -14,7 +14,7 @@ const Search = () => {
   };
 
   return (
-    <div className='search m-4 absolute  w-full p-2 sm:p-8'>
+    <div className='search hidden md:block m-4 absolute  w-full p-2 sm:p-8'>
          
       <input className='text-center p-2 text-xs sm:text-2xl relative'
         type="text"
