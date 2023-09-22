@@ -20,12 +20,12 @@ const BLogs = () => {
           <h2 className="blog-title text-xs sm:text-sm  ">
             {blog.title}
           </h2>
-          <div className="content">
+          <div className="content p-4 sm:p-8">
             {blog.content}
           </div>
-          <button className="tags border border-black w-auto absolute p-1 sm:p-2 ">
+          {/* <button className="tags border border-black w-auto absolute p-1 sm:p-2 ">
             Read more
-          </button>
+          </button> */}
         </div>
       )}
       </div>
