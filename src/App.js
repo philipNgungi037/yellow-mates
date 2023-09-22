@@ -3,8 +3,8 @@ import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <div className="app w-full  overflow-hidden ">
-      <div className="overflow-hidden ">
+    <div className="app w-full overflow-clip ">
+      <div className=" ">
         <LandingPage/>
       </div>
     </div>
