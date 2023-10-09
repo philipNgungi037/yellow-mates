@@ -18,10 +18,10 @@ const NavList = () => {
             <a href="about-us">About us</a>
           </li>
           <li>
-            <a href="dev">Develoments</a>
+            <a href="dev">Developments</a>
           </li>
           <li>
-            <a href="your-home">Find your home</a>
+            <a href="your-home">Find land</a>
           </li>
           <li>
             <a href="contact-us">Contact us</a>
@@ -44,10 +44,10 @@ const NavList = () => {
               <a href="about-us">About us</a>
             </li>
             <li>
-              <a href="dev">Develoments</a>
+              <a href="dev">Developments</a>
             </li>
             <li>
-              <a href="your-home">Find your home</a>
+              <a href="your-home">Find land</a>
             </li>
             <li>
               <a href="contact-us">Contact us</a>
