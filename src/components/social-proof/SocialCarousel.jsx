@@ -18,8 +18,8 @@ const SocialCarousel= () => {
   }, []);
 
   return (
-    <div className="social-carousel w-full  absolute bottom-0 md:right-72 ">
-      <div className="carousel-paragraph p-0 md:p-16 m-2 sm:p-4 bg-white z-50">
+    <div className="social-carousel w-full h-full absolute mx-0 bg-black md:mx-72">
+      <div className="carousel-paragraph p-0 md:p-16 m-2 sm:p-4 bg-yellow-100 z-50">
         <h1>About Clients </h1>
         {carouselParagraphs.map((paragraph, index) => (
           <p
