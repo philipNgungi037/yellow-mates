@@ -1,5 +1,5 @@
 import React from 'react';
-import imageData from '../organization/organization-data';
+import imageData from '../organization/folder-data';
 
 const SocialImage = () => {
   // Get the first image data from the array
