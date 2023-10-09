@@ -15,11 +15,12 @@ import './LandingPage.css'
         <Header/>
         <div className='overflow-hidden  '>
             <HeroSection/>
+            <Homes/>
             <Organization/>
             <SocialProof/>
             <Cta/>
             <Theme/>
-            <Homes/>
+            
             <BLogs/>
             <Footer/>
             
