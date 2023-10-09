@@ -1,5 +1,5 @@
 const whyUsLists = [
-    ['Our prices are very affordable starting from Kshs. 199,000 only'],
+    ['Our prices are very affordable starting from Kshs. 100,000 only'],
     ['Our prices are inclusive of title processing fees and legal fees, no hidden charges'],
     ['We offer a flexible installment payment plan of up to 12 months.'],
     ['Title deed delivery – we do all the paperwork for you and deliver title deeds within 6 – 12 months upon completion of payment.'],
