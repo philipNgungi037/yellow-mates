@@ -1,17 +1,17 @@
 const homes = [
     {
       "type": {
-        "title": "Modern Apartment",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Commercial Land",
+        "image": "./assets/images/feat-img1.jpeg"
       },
-      "location": "Modern Apartment",
+      "location": "Along Juja",
       "price": "$350,000",
       "description": "A sleek and contemporary apartment in the heart of the city, with stunning skyline views."
     },
     {
       "type": {
-        "title": "Modern Apartment",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Commercial Land",
+        "image": "./assets/images/feat-img4.jpg"
       },
       "location": "Suburbia Subdivision",
       "price": "$250,000",
@@ -19,8 +19,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img2.jpg"
       },
       "location": "Woodland Retreat",
       "price": "$150,000",
@@ -28,8 +28,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img3.jpg"
       },
       "location": "Exclusive Resort",
       "price": "$1,200,000",
@@ -37,8 +37,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img1.jpeg"
       },
       "location": "Historic District",
       "price": "$3,500,000",
@@ -46,8 +46,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img2.jpg"
       },
       "location": "Tropical Paradise",
       "price": "$500,000",
@@ -55,8 +55,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img2.jpg"
       },
       "location": "Alpine Retreat",
       "price": "$300,000",
@@ -64,8 +64,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Rustic Cabin",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Agricultural Land",
+        "image": "./assets/images/feat-img3.jpg"
       },
       "location": "Urban Neighborhood",
       "price": "$400,000",
@@ -73,8 +73,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Carrebean Bursts",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Residential Land",
+        "image": "./assets/images/feat-img3.jpeg"
       },
       "location": "Rural Countryside",
       "price": "$280,000",
@@ -82,8 +82,8 @@ const homes = [
     },
     {
       "type": {
-        "title": "Carrebean Bursts",
-        "image": "./assets/images/feat-img1.jpg"
+        "title": "Residential Land",
+        "image": "./assets/images/feat-img1.jpeg"
       },
       "location": "Artsy District",
       "price": "$600,000",
