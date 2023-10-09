@@ -1,11 +1,11 @@
 import React from "react";
-import imageData from "./organization-data";
+import imageData from "./folder-data";
 import "./organization.css";
 
 const Features = () => {
   return (
     <div className="features p-4 sm:p-16  ">
-      <h2> Neque porro quisquam est qui dolorem </h2>
+      <h2>our team structure and services</h2>
       <div className="features-card space-y-8 sm:flex justify-between items-baseline   sm:gap-2 overflow-hidden sm:overflow-x-scroll  lg:overflow-hidden">
         {imageData.map((item, index) =>
           <div key={index} className="relative flex  flex-col items-center ">
