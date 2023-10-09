@@ -2,7 +2,7 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div className='message-outer-container w-full absolute top-4  p-4 md:px-24'>
+    <div className='message-outer-container w-full absolute top-4  p-4 md:px-24 lg:px-72'>
         <div className='message-card w-full  p-2 sm:p-16 '>
             <h1>Our Commitment To You</h1>
             <p>
