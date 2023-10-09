@@ -3,7 +3,7 @@ import TeamData from "./TeamData";
 
 const Team = () => {
   return (
-    <div className="team-members flex justify-evenly overflow-x-scroll sm:overflow-hidden  gap-2   px-16">
+    <div className="team-members flex justify-between  overflow-x-scroll  gap-2   px-16">
       {TeamData.map((member, index) =>
         <div className="team-member-card" key={index}>
           <img src={member.image} alt={member.name} className="team-img border border-yellow-400" />
