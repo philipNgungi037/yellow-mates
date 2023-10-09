@@ -96,7 +96,7 @@ const Footer = () => {
           <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             © {currentYear}
             <a className='text-gray-500  hover:text-white hover:underline ml-1 font-normal' href='fb'>
-             Yellow-homies
+             Yellow-mates
             </a>
           </div>
         </MDBFooter>
