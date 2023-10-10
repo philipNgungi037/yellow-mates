@@ -15,9 +15,9 @@ const Features = () => {
                 src={item.image}
                 alt={item.description}
               />
-              <p className="item-category w-auto  text-center p-4 sm:p-2 lg:p-4 sm:text-sm lg:text-lg hover:text-white  absolute top-72">
+              <label className="item-category w-1/2 xs:w-auto text-right xs:text-center p-4  sm:p-2 lg:p-4 sm:text-sm lg:text-lg hover:text-white  absolute top-72">
                 {item.category}
-              </p>
+              </label>
             </a>
             <p className="px-8 sm:px-0">
               {item.description}
