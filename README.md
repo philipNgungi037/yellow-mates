@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Yellow-mates is a land-selling website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LIVE_LINK; https://yellow-mates.vercel.app/
 
 ## Available Scripts
 
