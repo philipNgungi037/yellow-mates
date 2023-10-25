@@ -5,7 +5,7 @@ import NavList from './NavList'
 const Header = () => {
   const logo = 'YELLOW MATES';
   return (
-    <div className='app-header overflow-hidden  sticky top-0 z-40  bg-yellow-50 flex justify-between items-center text-sm lg:text-xl '>
+    <div className='app-header overflow-hidden  sticky top-0 z-40  bg-yellow-50 flex justify-between items-center '>
       <Logo 
       logo ={logo}
       />
