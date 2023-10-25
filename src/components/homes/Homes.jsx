@@ -61,7 +61,7 @@ const Homes = () => {
         </button>
 
         {/**search-bar */}
-        <button>View All</button>
+        <button className='text-xs sm:text-xl'>View All</button>
         <button
           className='scroll-right'
           onClick={scrollRight}
