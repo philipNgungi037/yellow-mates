@@ -15,9 +15,9 @@ const NavList = () => {
       {/* nav-bar */}
       <div className="nav-bar hidden sm:block">
         
-        <ul className="nav-item flex justify-end items-center content-center gap-4">
+        <ul className="nav-lists flex justify-end items-center content-center   gap-0">
         {Navs.map((navItem, index) => (
-            <li key={index}>
+            <li className='nav-item  hover:bg-yellow-100 p-4 ' key={index}>
               <a href={navItem.link}>{navItem.name}</a>
             </li>
           ))}
