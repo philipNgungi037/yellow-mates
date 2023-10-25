@@ -27,7 +27,9 @@ const NavList = () => {
       {/* //menu-button */}
       <div className="menu sm:hidden">
         <button onClick={toggleMenu} className="menu-button text-4xl">
-          <ion-icon name="menu-outline" />
+          {
+            isOpen ? (<ion-icon name="close-outline"></ion-icon>) : (<ion-icon name="menu-outline" />)
+          }
         </button>
       </div>
 
