@@ -2,20 +2,20 @@ import React from "react";
 import imageData from "./folder-data";
 import "./organization.css";
 
-const Features = () => {
+const Features = ({header}) => {
   return (
     <div className="features p-4 sm:p-16  ">
-      <h2>our team structure and services</h2>
+      <h2>{header}</h2>
       <div className="features-card space-y-8 sm:flex justify-between items-baseline   sm:gap-2 overflow-hidden sm:overflow-x-scroll  lg:overflow-hidden">
         {imageData.map((item, index) =>
-          <div key={index} className="relative flex  flex-col items-center ">
+          <div key={index} className="relative flex  flex-col items-center w-full ">
             <a href="f">
               <img
                 className=" feat-img   "
                 src={item.image}
                 alt={item.description}
               />
-              <label className="item-category w-1/2 xs:w-auto text-right xs:text-center p-4  sm:p-2 lg:p-4 sm:text-sm lg:text-lg hover:text-white  absolute top-72">
+              <label className="item-category w-1/2 xs:w-auto text-right xs:text-center p-4  sm:p-2 lg:p-4 sm:text-sm lg:text-lg hover:text-white  absolute top-0 xl:top-48">
                 {item.category}
               </label>
             </a>
