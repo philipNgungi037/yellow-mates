@@ -5,7 +5,7 @@ import Organization from '../components/organization/Organization'
 import SocialProof from '../components/social-proof/SocialProof'
 import Cta from '../components/cta/Cta'
 import Theme from '../components/Organization-commitment/Theme'
-import Homes from '../components/homes/Homes'
+import Homes from '../components/homes/Properties'
 import BLogs from '../components/blogs/BLogs'
 import Footer from '../components/footer/Footer'
 import './LandingPage.css'
@@ -13,7 +13,7 @@ import './LandingPage.css'
     return (
       <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-yellow-50'>
         <Header/>
-        <div className='overflow-hidden  '>
+        <div className='overflow-hidden flex flex-col '>
             <HeroSection/>
             <Homes/>
             <Organization/>

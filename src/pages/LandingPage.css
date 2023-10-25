@@ -4,6 +4,14 @@
   
 }
 
+/* Header */
+.app-header{
+
+  .nav-item{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+}
+
 .carousel-header{
   
 }
@@ -76,32 +84,15 @@
    }
 
 }
-.feat-img{
-  /* clip-path: ellipse(46% 50% at 50% 50%); */
-  border-radius: 0%;
-  max-width: 400px;
-  height: 300px;
- @media (min-width: 640px) {
-  width: 300px;
-  height: 100px;
 
-  @media (min-width:1024px) {
-    width: 400px;
-    height: 200px;
-    
-  }
- 
-  
- }
-}
 
 .social-carousel{
-  max-width: 600px;
+  /* max-width: 600px;
 
   @media (max-width: 480px) {
     max-width: 100%;
     
-  }
+  } */
 }
 .footer-container{
   max-width: 100%;
@@ -170,10 +161,7 @@ label{
     }
   }
 
-  .feat-img{
-    max-width: 400px;
-    height: 400px;
-  }
+
   button{
     padding: 11px;
   }
@@ -196,19 +184,15 @@ label{
     height: 600px;
     opacity: 1;
   }
-  .social-carousel{
+  /* .social-carousel{
     width: 400px;
     opacity: 0.8;
-  }
+  } */
 
   .carousel{
      
   }
-  .carousel-img{
-    max-width: 1400px;
-    width: 1400px;
-    height: 400px;
-  }
+ 
 
   .carousel-img-details{
     /* clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%); */
