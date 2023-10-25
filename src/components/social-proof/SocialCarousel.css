@@ -1,24 +1,29 @@
 .carousel-container {
-    width: 300px; /* Adjust to your desired width */
+     /* Adjust to your desired width */
     overflow: hidden;
     border: 1px solid #ccc;
     border-radius: 5px;
+    opacity: 0.4;
   }
   
   .carousel-paragraph {
     display: flex;
     flex-direction: column;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.9s ease-in-out;
   }
   
   .carousel-paragraph p {
-    padding: 10px;
+    
     margin: 0;
     display: none;
   }
   
   .carousel-paragraph p.active {
     display: block;
+  }
+
+  .social-carousel{
+    /* opacity: 0.8; */
   }
   
   /* Add more styling as needed */
