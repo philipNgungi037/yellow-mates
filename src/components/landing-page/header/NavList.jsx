@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "./navlist.css";
 import Navs from "./NavData";
+import { Link } from "react-router-dom";
 
 const NavList = () => {
   // state to open/close toggle-menu
@@ -13,19 +14,19 @@ const NavList = () => {
   return (
     <div className="nav-list p-2 sm:p-4   text-black ">
       {/* nav-bar */}
-      <div className="nav-bar hidden sm:block">
+      <div className="nav-bar hidden lg:block">
         
         <ul className="nav-lists flex justify-end items-center content-center   gap-0">
         {Navs.map((navItem, index) => (
             <li className='nav-item  hover:bg-yellow-100 p-4 ' key={index}>
-              <a href={navItem.link}>{navItem.name}</a>
+              <Link to={navItem.link}>{navItem.name}</Link>
             </li>
           ))}
         </ul> 
       </div>
 
       {/* //menu-button */}
-      <div className="menu sm:hidden">
+      <div className="menu lg:hidden">
         <button onClick={toggleMenu} className="menu-button text-4xl">
           {
             isOpen ? (<ion-icon name="close-outline"></ion-icon>) : (<ion-icon name="menu-outline" />)
@@ -39,7 +40,7 @@ const NavList = () => {
           <ul className="nav-item flex flex-col  justify-end items-center content-center gap-4 ">
              {Navs.map((navItem, index) => (
               <li key={index}>
-                <a href={navItem.link}>{navItem.name}</a>
+                <Link to={navItem.link}>{navItem.name}</Link>
               </li>
             ))}
           </ul>
