@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "./navlist.css";
 import Navs from "./NavData";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navlist.css";
 
 const NavList = () => {
@@ -54,14 +54,10 @@ const NavList = () => {
           <ul className="nav-item flex flex-col  justify-end items-center content-center gap-4 ">
             {Navs.map((navItem, index) =>
               <li key={index}>
-                <NavLink to={navItem.link}
-                 className={
-                  ({isActive})=>
-                  isActive ? activeLink : normalLink
-                }
+                <a  href={navItem.link}
                 >
                   {navItem.name}
-                </NavLink>
+                </a>
               </li>
             )}
           </ul>
