@@ -1,12 +1,16 @@
 
 const Navs = [
     {
+        name: 'Home',
+        link: '/'
+    },
+    {
         name: 'About us',
         link: 'about-us'
     },
     {
         name:'Developments',
-        link: 'dev'
+        link: 'properties'
     },
     {
         name: 'Find Land',
