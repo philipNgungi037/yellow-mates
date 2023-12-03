@@ -8,7 +8,7 @@ const Logo = ({logo}) => {
 
       {/**logo as prop */}
       <Link to='/'>
-        <h1 className='pr-8 text-sm lg:text-xl hover:text-yellow-100'>{logo}</h1>
+        <h1 className='pr-8 hover:text-yellow-100'>{logo}</h1>
         </Link>
 
     </div>
