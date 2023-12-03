@@ -22,7 +22,6 @@ const PropertiesList = () => {
 
   return (
     <div>
-      <Header />
       <>
         <h2 className='text-center text'>AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu</h2>
         <p>We offer affordable and genuine land for sale along Kangundo Road, Eastern Bypass, Mombasa Road and along Thika Road with Ready Title Deeds..</p>
