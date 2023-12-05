@@ -93,11 +93,11 @@ const Footer = () => {
             </MDBContainer>
           </section>
 
-          <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+          <div className='text-center p-4 flex justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             © {currentYear}
-            <a className='text-gray-500  hover:text-white hover:underline ml-1 font-normal' href='fb'>
+            <h1 className='text-gray-500  hover:text-white hover:underline ml-1 font-normal' href='fb'>
              Yellow-mates
-            </a>
+            </h1>
           </div>
         </MDBFooter>
       );
