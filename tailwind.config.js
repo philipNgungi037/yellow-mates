@@ -25,7 +25,7 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        'fi2-image':'url("./components/images/feat-img2.jpg")',
+        'bg1-image':'url("./components/others/feat-img2.jpg")',
       },
       fontFace: {
         'fontawesome': {
