@@ -9,6 +9,7 @@ import Homes from '../components/landing-page/homes/Properties'
 import BLogs from '../components/landing-page/blogs/BLogs'
 import Footer from '../components/landing-page/footer/Footer'
 import './LandingPage.css'
+import BackTop from '../components/others/BackTop'
   const LandingPage = () => {
     return (
       <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-yellow-50'>
@@ -23,6 +24,7 @@ import './LandingPage.css'
             
             <BLogs/>
             <Footer/>
+            <BackTop/>
             
         </div>
       </div>

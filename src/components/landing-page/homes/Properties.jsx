@@ -43,7 +43,7 @@ const Homes = () => {
         </p>
       </div>
       <div className="homes-scroll-container">
-        <div className="homes-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        <div className="homes-wrapper w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
           {visibleHomes.map((home, index) =>
             <div key={index} className="home-card relative text-xs sm:text-sm">
               <img src={home.type.image} alt={home.type.title} />
