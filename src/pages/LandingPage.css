@@ -299,7 +299,8 @@ label{
   }
   /* Custom backgrounds for a grouped... */
   .logo, .item-category, .social-carousel, .home-type-label, .cta-email-submit, .message-card, .card-text, .blog-title, .footer-container{
-    background-color: rgb(241, 211, 13);
+    /* replace with bg variant */
+    background-color: var(--main-color);
     color: black;
   }
 
