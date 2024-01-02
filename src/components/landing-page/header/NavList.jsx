@@ -21,7 +21,7 @@ const NavList = () => {
       <div className="nav-bar hidden lg:block">
         <ul className="nav-lists flex justify-end items-center content-center   gap-0">
           {Navs.map((navItem, index) =>
-            <li className="nav-item  hover:bg-yellow-100 p-4 " key={index}>
+            <li className="nav-item  hover p-4 " key={index}>
               <NavLink
                 to={navItem.link}
               className={
