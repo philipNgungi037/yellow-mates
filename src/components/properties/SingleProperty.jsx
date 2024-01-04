@@ -7,7 +7,7 @@ const SingleProperty = ({singleProperty}) => {
   return (
     <div className=" mx-auto px-4 py-8 bg-white">
       <div className="flex flex-col md:flex-row">
-        <img src={singleProperty.type.image} alt={singleProperty.type.title} className="md:w-1/3 rounded-lg shadow-md" />
+        <img src={singleProperty.type.image} alt={singleProperty.type.title} className="w-full h-[300px] " />
         <div className="md:ml-8">
           <h1 className="text-3xl font-bold mb-2">{singleProperty.type.title}</h1>
           <p className="text-gray-700 mb-4">{singleProperty.description}</p>
