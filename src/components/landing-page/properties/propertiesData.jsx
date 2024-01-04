@@ -1,6 +1,6 @@
 const homes = [
     {
-      id: "0",
+      id: "1",
       "type": {
         "title": "Commercial Land",
         "image": "./assets/images/feat-img1.jpeg"
@@ -10,7 +10,7 @@ const homes = [
       "description": "A sleek and contemporary apartment in the heart of the city, with stunning skyline views."
     },
     {
-      id: "1",
+      id: "2",
       "type": {
         "title": "Commercial Land",
         "image": "./assets/images/feat-img4.jpg"
@@ -20,7 +20,7 @@ const homes = [
       "description": "A charming suburban house with a spacious backyard, perfect for a family."
     },
     {
-      id: "2",
+      id: "3",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img2.jpg"
@@ -30,7 +30,7 @@ const homes = [
       "description": "A cozy cabin nestled in the woods, providing a tranquil escape from city life."
     },
     {
-      id: "3",
+      id: "4",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img3.jpg"
@@ -40,7 +40,7 @@ const homes = [
       "description": "A lavish and spacious villa in a private resort, featuring exquisite amenities."
     },
     {
-      id: "4",
+      id: "5",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img1.jpeg"
@@ -50,7 +50,7 @@ const homes = [
       "description": "A grand and meticulously preserved mansion with a rich history, situated in a historic district."
     },
     {
-      id: "5",
+      id: "6",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img2.jpg"
@@ -60,7 +60,7 @@ const homes = [
       "description": "A charming beachfront bungalow with direct access to the pristine sandy beach."
     },
     {
-      id: "5",
+      id: "7",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img2.jpg"
@@ -70,7 +70,7 @@ const homes = [
       "description": "A picturesque mountain chalet with breathtaking views, ideal for nature enthusiasts."
     },
     {
-      id: "6",
+      id: "8",
       "type": {
         "title": "Agricultural Land",
         "image": "./assets/images/feat-img3.jpg"
@@ -80,7 +80,7 @@ const homes = [
       "description": "A stylish and modern townhouse with easy access to urban amenities and entertainment."
     },
     {
-      id: "7",
+      id: "9",
       "type": {
         "title": "Residential Land",
         "image": "./assets/images/feat-img3.jpeg"
@@ -90,7 +90,7 @@ const homes = [
       "description": "A charming country farmhouse with a spacious lot, perfect for a peaceful rural lifestyle."
     },
     {
-      id: "8",
+      id: "10",
       "type": {
         "title": "Residential Land",
         "image": "./assets/images/feat-img1.jpeg"
