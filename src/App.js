@@ -1,21 +1,22 @@
 import './App.css';
 import LandingPage from './pages/LandingPage';
 import { Routes, Route } from 'react-router-dom';
-import PropertiesList from './components/properties/PropertiesList';
 import PropertiesPage from './pages/properties/PropertiesPage';
 import Header from './components/landing-page/header/Header';
+import SingleProperty from './components/properties/SingleProperty';
+import SinglePropertyPage from './pages/single-property/SinglePropertyPage';
 
 function App() {
   return (
     <div className="app w-full overflow-clip ">
-      <Header/>
-      
+      <Header />
       <div className=" ">
         <Routes>
-          <Route path='/' element={<LandingPage/>}/>
-          <Route path='/properties' element={<PropertiesPage  />}/>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/properties' element={<PropertiesPage />} />
+          <Route path='/property/:id' element={<SinglePropertyPage  />} />
         </Routes>
-       
+
       </div>
     </div>
   );
