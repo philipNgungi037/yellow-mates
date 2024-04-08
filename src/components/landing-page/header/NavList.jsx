@@ -17,7 +17,7 @@ const NavList = () => {
   };
   
   return (
-    <div className="nav-list p-2 sm:p-4   text-black ">
+    <div className="nav-list text-black ">
       {/* main nav-bar */}
       <div className="nav-bar hidden lg:block">
         <ul className="nav-lists flex justify-end items-center content-center   gap-0">
