@@ -29,13 +29,13 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel w-full ">
+    <div className="carousel w-full relative ">
       <img
         src={CarouselImages[currentIndex].imageUrl}
         alt={CarouselImages[currentIndex].title}
-        className="carousel-img w-full relative bg-cover "
+        className="carousel-img w-full relative bg-cover h-[181px] sm:h-[200px] md:h-[280px] lg:h-[400px] 2xl:h-[600px] "
       />
-      <div className="carousel-img-details absolute top-32 text-black px-0 md:px-48 text-center w-full  m-auto py-4 sm:py-8 lg:py-16 ">
+      <div className="carousel-img-details absolute top-0 text-black px-0 md:px-48 text-center w-full  m-auto py-4 sm:py-8 lg:py-16 ">
         <h1 className="carousel-img-title text-xl sm:text-2xl lg:text-4xl">
           {CarouselImages[currentIndex].title}
         </h1>
@@ -50,11 +50,11 @@ const Carousel = () => {
       {/* <div className="w-full why-us-label mt-8 h-48 absolute top- p-4 bg-yellow-400">
 
       </div> */}
-      <div className="carousel-buttons text-xl sm:text-2xl lg:text-4xl flex justify-between ">
-        <button onClick={nextImage}>
+      <div className="carousel-buttons absolute bottom-4 w-full text-xl sm:text-2xl lg:text-4xl flex justify-between ">
+        <button onClick={nextImage} className="bg-white">
           <ion-icon name="chevron-back-outline" />
         </button>
-        <button onClick={prevImage}>
+        <button onClick={prevImage} className="bg-white">
           <ion-icon name="chevron-forward-outline" />
         </button>
       </div>
