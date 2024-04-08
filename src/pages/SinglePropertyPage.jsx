@@ -1,9 +1,9 @@
 import React from 'react'
-import SingleProperty from '../../components/properties/SingleProperty'
+import SingleProperty from '../components/properties/SingleProperty'
 import { useParams } from 'react-router-dom';
-import homes from '../../data/properties/propertiesData';
-import SimilarProperties from '../../components/properties/SimilarProperties';
-import Footer from '../../components/landing-page/footer/Footer';
+import homes from '../data/properties/propertiesData';
+import SimilarProperties from '../components/properties/SimilarProperties';
+import Footer from '../components/landing-page/footer/Footer';
 
 
 

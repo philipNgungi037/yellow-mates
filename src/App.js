@@ -1,10 +1,9 @@
 import './App.css';
 import LandingPage from './pages/LandingPage';
 import { Routes, Route } from 'react-router-dom';
-import PropertiesPage from './pages/properties/PropertiesPage';
+import PropertiesPage from './pages/PropertiesPage';
 import Header from './components/landing-page/header/Header';
-import SingleProperty from './components/properties/SingleProperty';
-import SinglePropertyPage from './pages/single-property/SinglePropertyPage';
+import SinglePropertyPage from './pages/SinglePropertyPage';
 
 function App() {
   return (
