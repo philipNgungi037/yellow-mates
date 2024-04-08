@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "./navlist.css";
 import Navs from "./NavData";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navlist.css";
 
 const NavList = () => {
@@ -15,6 +15,7 @@ const NavList = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
   return (
     <div className="nav-list p-2 sm:p-4   text-black ">
       {/* main nav-bar */}
@@ -40,7 +41,7 @@ const NavList = () => {
       <div className="menu lg:hidden">
         <button
           onClick={toggleMenu}
-          className="menu-button text-2xl md:text-4xl hover:border hover:border-yellow-400 "
+          className="menu-button text-2xl md:text-4xl hover:border hover:border-yellow-400"
         >
           {isOpen
             ? <ion-icon name="close-outline" />
