@@ -298,7 +298,7 @@ label{
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   }
   /* Custom backgrounds for a grouped... */
-  .logo, .item-category, .social-carousel, .home-type-label, .cta-email-submit, .message-card, .card-text, .blog-title, .footer-container{
+   .item-category, .social-carousel, .home-type-label, .cta-email-submit, .message-card, .card-text, .blog-title, .footer-container{
     /* replace with bg variant */
     background-color: var(--main-color);
     color: black;
