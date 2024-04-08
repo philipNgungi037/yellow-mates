@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import Header from "../landing-page/header/Header";
 import Footer from "../landing-page/footer/Footer";
-import homes from "../landing-page/properties/propertiesData";
+import homes from "../../data/properties/propertiesData";
 import Pagination from "../re-usable-components/Pagination";
 import './properties-list.css'
 import { Link } from "react-router-dom";
 
 
 const PropertiesList = () => {
-  const itemsPerPage = 2;
+  const itemsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(0);
 
   const handlePageChange = ({ selected }) => {
@@ -27,7 +27,7 @@ const PropertiesList = () => {
         <h2 className='text-center text'>AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu</h2>
         <p>We offer affordable and genuine land for sale along Kangundo Road, Eastern Bypass, Mombasa Road and along Thika Road with Ready Title Deeds..</p>
       </>
-      <div className="bg-white grid md:grid-cols-2 gap-4 lg:gap-8 space-y-8 md:space-y-0 mt-8 md:mt-0 w-full m-auto p-0 md:p-8 lg:p-16">
+      <div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 space-y-8 md:space-y-0 mt-8 md:mt-0 w-full m-auto p-0 md:p-8 lg:p-16">
         {currentHomes.map((home, index) => (
           <Link to={`/property/${home.id}`} key={home.id}>
             <div key={index} className="h relative text-xs sm:text-sm">
