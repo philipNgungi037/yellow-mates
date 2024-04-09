@@ -16,7 +16,7 @@ const Homes = () => {
   };
 
   // Calculate the maximum number of cards to display at once
-  const maxVisibleCards = 2;
+  const maxVisibleCards = 3;
 
   // Calculate the total number of cards
   const totalCards = homes.length;
@@ -29,7 +29,7 @@ const Homes = () => {
   const visibleHomes = homes.slice(startIndex, endIndex);
 
   return (
-    <div className="homes-container relative h-auto p-4 sm:p-16">
+    <div className="homes-container relative h-auto p-0 lg:p-16 ">
       <div className="py-8">
         <h2 className="text-center text">
           AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu
@@ -43,11 +43,11 @@ const Homes = () => {
         </p>
       </div>
       <div className="homes-scroll-container">
-        <div className="homes-wrapper w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
+        <div className="homes-wrapper w-full grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4 rounded-md ">
           {visibleHomes.map((home, index) =>
-            <div key={index} className="home-card relative text-xs sm:text-sm">
-              <img src={home.type.image} alt={home.type.title} />
-              <div className="card-text w-full  absolute sm:relative lg:absolute bottom-0 grid grid-cols-2 ">
+            <div key={index} className="home-card text-xs sm:text-sm rounded-md bg-yellow-400">
+              <img src={home.type.image} alt={home.type.title} className=" w-full h-[111px] sm:h-[200px] md:h-[280px] " />
+              {/* <div className="card-text w-full grid grid-cols-2 rounded-md "> */}
                 <h1 className="text-white ">
                   {home.type.title}
                 </h1>
@@ -58,13 +58,13 @@ const Homes = () => {
                 <p>
                   {home.price}
                 </p>
-                <p>
+                {/* <p>
                   <ion-icon name="location-outline" />
-                </p>
+                </p> */}
                 <p className="col-span-2 border-t">
                   {home.description}
                 </p>
-              </div>
+              {/* </div> */}
             </div>
           )}
         </div>
