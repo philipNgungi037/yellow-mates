@@ -12,7 +12,7 @@ import './LandingPage.css'
 import BackTop from '../components/others/BackTop'
   const LandingPage = () => {
     return (
-      <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-yellow-50'>
+      <div className='landing-page shadow-2xl shadow-black sticky top-4 bg-white'>
         {/* <Header/> */}
         <div className='overflow-hidden flex flex-col '>
             <HeroSection/>
