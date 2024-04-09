@@ -24,23 +24,23 @@ const PropertiesList = () => {
   return (
     <div className="bg-white">
       <>
-        <h2 className='text-center text'>AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu</h2>
-        <p>We offer affordable and genuine land for sale along Kangundo Road, Eastern Bypass, Mombasa Road and along Thika Road with Ready Title Deeds..</p>
+        <h2 className='text-center text-xs xs:text-sm md:text-xl'>AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu</h2>
+        <p className="text-xs xs:text-sm md:text-xl">We offer affordable and genuine land for sale along Kangundo Road, Eastern Bypass, Mombasa Road and along Thika Road with Ready Title Deeds..</p>
       </>
-      <div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 space-y-8 md:space-y-0 mt-8 md:mt-0 w-full m-auto p-0 md:p-8 lg:p-16">
+      <div className="bg-white grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 p-0 xs:p-4 md:p-16 mt-2 ">
         {currentHomes.map((home, index) => (
           <Link to={`/property/${home.id}`} key={home.id}>
-            <div key={index} className="h relative text-xs sm:text-sm">
-              <img src={home.type.image} alt={home.type.title} className="w-full h-[300px]" />
-              <div className="bg-yellow-400 w-full absolute sm:relative lg:absolute bottom-0">
+            <div key={index} className="h relative text-xs sm:text-sm bg-yellow-400 rounded-md">
+              <img src={home.type.image} alt={home.type.title} className="w-full h-[111px] sm:h-[200px] md:h-[280px]" />
+              {/* <div className="bg-yellow-400 w-full absolute sm:relative lg:absolute bottom-0"> */}
                 <h1 className="text-white">{home.type.title}</h1>
                 <p>{home.location}</p>
                 <p>{home.price}</p>
-                <p>
+                {/* <p>
                   <ion-icon name="location-outline" />
-                </p>
+                </p> */}
                 <p className="col-span-2 border-t">{home.description}</p>
-              </div>
+              {/* </div> */}
             </div>
           </Link>
         ))}
