@@ -29,9 +29,9 @@ const Homes = () => {
   const visibleHomes = homes.slice(startIndex, endIndex);
 
   return (
-    <div className="homes-container relative h-auto p-4 sm:p-16">
-      <div className="py-8">
-        <h2 className="text-center text">
+    <div className="homes-container relative h-auto ">
+      <div className="py-4">
+        <h2 className="text-center text text-xs sm:text-sm lg:text-xl">
           AFFORDABLE PLOTS FOR SALE WITHIN NAIROBI & kiambu
         </h2>
         <p>
